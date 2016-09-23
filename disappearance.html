@@ -45,15 +45,26 @@
             position: fixed;
             bottom: 0;
             height: 35vh;
-            min-height: 310px;
+            min-height: 320px;
+            min-width: 600px;
             width: 100vw;
             background: rgba(0, 0, 0, 0.65);
             color: #fff;
         }
         #tt {
             margin: 2vh auto;
-            font: 3vh/1.5 sans-serif;
+            font: 30px/1.5 sans-serif;
             max-width: 80vw;
+        }
+        @media (max-width: 600px), (max-height: 320px) {
+            #t {
+                height: 50vh;
+                min-width: 0px;
+                min-height: 160px;
+            }
+            #tt {
+                font-size: 16px;
+            }
         }
     </style>
     <meta charset="UTF-8">
@@ -62,6 +73,7 @@
 
 <body>
     <div id="ln">
+        <button type="button" id="p" onclick="start()">Read as visual novel</button>
         <div class="0">
             <p class="aca">“Hey, Nagato?”</p>
             <p class="aac 100">“What?”</p>
@@ -142,7 +154,6 @@
             <p class="fff">Why was there such a difference?</p>
             <p class="fff">The alien I had known had gone off to somewhere else, leaving behind only a bookmark.</p>
         </div>
-        <button type="button" id="p" onclick="start()">Read as visual novel</button>
     </div>
 
 
