@@ -6,7 +6,7 @@ An excerpt from the "Disappearance of Haruhi Suzumiya" novel, adapted to work as
 
 The excerpt was not modified, and can still be read just like a normal novel if you wish to do so.
 
-Visual Novel mode assets are only loaded once user presses the "Read as visual novel" button - but are still under 10 kilobytes.
+Visual novel mode assets are only loaded once user presses the "Read as visual novel" button - but are still under 10 kilobytes.
 
 ## Size
 
