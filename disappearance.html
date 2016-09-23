@@ -56,10 +56,18 @@
             font: 30px/1.5 sans-serif;
             max-width: 80vw;
         }
-        @media (max-width: 600px), (max-height: 320px) {
+        @media (max-width: 750px), (max-height: 320px) {
             #t {
-                height: 50vh;
+                height: 30vh;
                 min-width: 0px;
+                min-height: 240px;
+            }
+            #tt {
+                font-size: 16px;
+            }
+        }
+        @media (min-width: 480px) and (max-height: 480px) {
+            #t {
                 min-height: 160px;
             }
             #tt {
