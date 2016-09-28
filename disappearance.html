@@ -16,11 +16,10 @@
             line-height: 1.6;
             font-size: 18px;
             color: #444;
-            padding: 0 10px
         }
         #vn {
-            height: 100vh;
             width: 100vw;
+            height: 100vh;
             display: none;
             -webkit-user-select: none;
             -khtml-user-select: none;
@@ -40,12 +39,12 @@
             transition: opacity 0.2s linear;
         }
         #t {
+            width: 100vw;
+            height: 35vh;
             position: fixed;
             bottom: 0;
-            height: 35vh;
             min-height: 320px;
             min-width: 600px;
-            width: 100vw;
             background: rgba(0, 0, 0, 0.65);
             color: #fff;
         }
@@ -163,10 +162,10 @@
     </div>
 
 
-    <div id="vn" onclick="pl(0,40)">
+    <div id="vn" onclick="g('tt').innerHTML = ''; pl(0,40)">
         <img id="s">
         <div id="t">
-            <div id="tt"></div>
+            <div id="tt">Tap anywhere to continue...</div>
         </div>
     </div>
     <script>

@@ -15,7 +15,8 @@ Assuming HTML is gzipped:
 * 8/19/16: 10933 bytes
 * 8/21/16: 10339 bytes
 * 8/21/16: 9924 bytes
-* **9/22/16: 9989 bytes**
+* 9/22/16: 9989 bytes
+* **9/2716: 9995 bytes**
 
 ## Credits
 
