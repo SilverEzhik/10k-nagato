@@ -1,5 +1,7 @@
 # http://nagato.ezhik.me
 
+![Screenshot](https://github.com/SilverEzhik/10k-nagato/raw/master/screenshot.jpg)
+
 # 10 kilobytes of Nagato Yuki
 
 An excerpt from the "Disappearance of Haruhi Suzumiya" novel, adapted to work as a [visual novel](https://en.wikipedia.org/wiki/Visual_novel) - adding graphics and a degree of interaction to your reading experience.
