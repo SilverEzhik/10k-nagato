@@ -1,6 +1,6 @@
 # http://nagato.ezhik.me
 
-![Screenshot](https://github.com/SilverEzhik/10k-nagato/raw/master/screenshot.jpg)
+![Screenshot](screenshot.jpg)
 
 # 10 kilobytes of Nagato Yuki
 
