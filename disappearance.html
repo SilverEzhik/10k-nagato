@@ -11,11 +11,12 @@
             display: none;
         }
         #ln {
-            margin: 40px auto;
+            margin: 30px auto;
             max-width: 650px;
             line-height: 1.6;
             font-size: 18px;
             color: #444;
+            padding: 10px;
         }
         #vn {
             width: 100vw;
@@ -28,6 +29,7 @@
             user-select: none;
         }
         #s {
+            margin: 0 auto 0 auto;
             opacity: 0;
             image-rendering: pixelated;
             position: fixed;
@@ -35,7 +37,6 @@
             height: 80vh;
             right: 0;
             left: 0;
-            margin: 0 auto 0 auto;
             transition: opacity 0.2s linear;
         }
         #t {
@@ -78,7 +79,7 @@
 
 <body>
     <div id="ln">
-        <button type="button" id="p" onclick="start()">Read as visual novel</button>
+        <button type="button" id="p" onclick="q()">Read as visual novel</button>
         <div class="0">
             <p class="aca">“Hey, Nagato?”</p>
             <p class="aac 100">“What?”</p>
@@ -182,7 +183,7 @@
 
         g("p").style.display = "block";
 
-        function start() {
+        function q() {
             g("s").src = "s.png";
             img.src = "b.jpg";
             g("ln").style.display = "none";
