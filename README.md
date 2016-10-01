@@ -1,3 +1,5 @@
+The contest voting is up! Please check out my project over at https://a-k-apart.com/gallery/10-kilobytes-of-Nagato-Yu
+
 # http://nagato.ezhik.me
 
 ![Screenshot](screenshot.jpg)
