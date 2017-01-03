@@ -1,6 +1,6 @@
-Contest voting is up! Please check my project out over at https://a-k-apart.com/gallery/10-kilobytes-of-Nagato-Yu
+Try the VN out at http://nagato.ezhik.me!
 
-![Screenshot](screenshot.jpg)
+[![Screenshot](screenshot.jpg)](http://nagato.ezhik.me)
 
 # 10 kilobytes of Nagato Yuki
 
